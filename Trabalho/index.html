@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Recursos Recebidos</title>
+</head>
+<body> 
+   
+    
+    <label class="titulo">Pesquisa de Recursos Recebidos do Governo</label>
+    <form class="form"> 
+        <label>Preencha todos os dados:</label>
+        <div>
+        <label for="data_inicio">Data de Início: </label>
+        <input class="data_inicio" type="text" placeholder="MM/AAAA"><br>
+        </div>
+        <div>
+        <label for="data_fim">Data de Fim: </label>
+        <input class="data_fim" type="text" placeholder="MM/AAAA"><br>
+        </div>
+        <div>
+        <label for="cidade">Cidade: </label>
+        <input class="cidade" type="text"><br>
+        </div>
+        <div>
+        <label for="pessoa">Pessoa: </label>
+        <input class="pessoa" type="text"><br>
+        </div>
+        <button class='botao'>Pesquisar</button>
+    </form> 
+    <br><br>
+    <label for="resultado" class="resultado1"><b>Resultado da Pesquisa:</b></label>
+    <div class='resultado'>
+    </div>
+    
+    
+</body>
+<script src="dados.js"></script>
+</html>

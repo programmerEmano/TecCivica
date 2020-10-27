@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-image: url('bandeira.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    color: red;
+}
+
+.form{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+button{
+    border-radius: 10px;
+    font-size: x-large;
+    margin-top: 30px;
+}
+
+.resultado{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.resultado1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    color: red;
+}
